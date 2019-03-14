@@ -10,15 +10,17 @@ Crowdfunding mobile p2p lending solution. The app allows for adding projects to 
 
 ### Running the app
 
-Run `npm install` from the project directory.
+Run `npm install -g expo-cli`. 
 
-Install **Expo** app on your smartphone.
+If you prefer not to use **Xcode iOS simulator**, install **Expo** app on your smartphone.
 
-Start the server by running `/server/index.js` and the front end with `expo start`.
+Install required dependencies running `npm install` from the project directory.
 
-Make sure the server and the smartphone run on the same WIFI network and change the url in the `reducer.js` to the IP of your network.
+Start the server by running `/server/index.js` and the front end with `npm start`.
 
-You have to create mock data for projects.
+Make sure the server and the smartphone run on the same network and change the url in the `reducer.js` to the proper IP.
+
+The mock data for projects load from the external **MongoDB** in **mLab**, so you need to have a running WIFI connection.
 
 ## Tech stack
 
@@ -39,5 +41,7 @@ Front-end components are located in the `screens` folder.
 Back-end files are located in the `server` folder.
 
 ### Notes
+
+To enable the Google login feature you need to input your Google ID token in the `env.js` file and change the `initialRouteName` in `\navigation\AppNavigator.js` to `Auth`.
 
 Not tested on Android! The app contains some original filenames as created by Expo which may not always refer to what is seen on the screen.
