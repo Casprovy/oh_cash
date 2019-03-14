@@ -10,7 +10,7 @@ Crowdfunding mobile p2p lending solution. The app allows for adding projects to 
 
 ### Running the app
 
-Run `npm install -g expo-cli`. 
+Run `npm install -g expo-cli` if no Expo CLI installed.
 
 If you prefer not to use **Xcode iOS simulator**, install **Expo** app on your smartphone.
 
