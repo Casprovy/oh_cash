@@ -30,8 +30,9 @@ async componentDidMount () {
 
 signIn = async () => {
   try {
+    console.log('logging...');
     let result = await Expo.Google.logInAsync({
-      iosClientId: GOOGLE_ID,
+      clientId: GOOGLE_ID,
       scopes: ['profile', 'email']
     });
 

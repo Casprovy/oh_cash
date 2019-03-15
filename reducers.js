@@ -1,6 +1,6 @@
 const stateDef = {
   isLoadingComplete: false,
-  url: "192.168.1.182:3000",
+  url: "localhost:3000",
   data: [],
   pitches: [],
   basket: [],
