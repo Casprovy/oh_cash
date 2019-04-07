@@ -12,8 +12,6 @@ Crowdfunding mobile p2p lending solution. The app allows for adding projects to 
 
 Run `npm install -g expo-cli` if no Expo CLI installed.
 
-If you prefer not to use **Xcode iOS simulator**, install **Expo** app on your smartphone.
-
 Install required dependencies running `npm install` from the project directory.
 
 Start the server by running `/server/index.js` and the front end with `npm start`.
